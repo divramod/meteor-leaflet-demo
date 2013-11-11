@@ -29,7 +29,8 @@ Template.map.rendered = ->
   .setView([49.25044, -123.137], 13)
 
   # add a CloudMade tile layer with style #997 - use your own cloudmade api key
-  L.tileLayer "http://{s}.tile.cloudmade.com/#{window.cloudmade}/997/256/{z}/{x}/{y}.png", 
+  L.tileLayer "http://{s}.tile.cloudmade.com/0a479bea66064f08b83fefa87ec3dd46/997/256/{z}/{x}/{y}.png", 
+    attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://cloudmade.com">CloudMade</a>'
     attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://cloudmade.com">CloudMade</a>'
   .addTo(window.map)
   

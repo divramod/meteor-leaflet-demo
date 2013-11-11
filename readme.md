@@ -1,5 +1,8 @@
 # Leaflet for Meteor Demo
 
+## divramod
+1. added standard-app-packages to .meteor/packages
+
 ## How to install 
 1. npm install -g meteorite (if not already installed)
 2. git clone https://github.com/bevanhunt/meteor-leaflet-demo
